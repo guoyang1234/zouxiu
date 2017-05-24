@@ -1,0 +1,228 @@
+           *{
+		    	margin: 0;
+		    	padding: 0;
+		    }
+		    a{
+		    	text-decoration: none;
+		    }
+		    ul,ol{
+		    	list-style: none;
+		    }
+			#header{
+				width: 100%;
+				height: 100px;
+				background: black;			   
+			}
+			#header #box{
+				width: 1440px;
+				height: 150px;
+				margin: 0 auto;
+				text-align: center;
+                color: white;
+                position: relative;
+			}
+			#header #box input{
+				position: absolute;
+				top: 8px;
+				right: 8%;
+				width: 300px;
+				height: 30px;
+			}
+			#header #box ul{
+				position: absolute;
+				left: 8%;
+				top: 0;
+			}
+			#header #box ul li{
+				float: left;
+				font-size:14px ;
+				height: 30px;
+				line-height: 30px;
+				margin-right: 15px;
+				cursor: pointer;
+			}
+			#header #box ul li .hidd{
+				background: white;
+				color: black;
+				display: none;
+			}
+			#header #box ul li .hidd span:hover{
+				color: red;
+				cursor: pointer;
+			}
+			#header #box ul li:last-child:hover{
+				background: white;
+				color: black;
+			}
+			#header #box ul li:last-child:hover .hidd{
+				display: block;
+			} 
+			#header #box ol{
+				position: absolute;
+				left: 320px;
+				top: 50px;
+			}
+			#header #box ol li{
+				float: left;
+				width: 100px;
+				height: 45px;
+				line-height: 45px;
+		    }
+		    #header #box ol li:hover a{
+		    	color: red;
+		    }
+		    #header #box ol li:hover{
+		    	border-bottom: 2px solid cornsilk;
+		    }
+			#header #box a{
+				color: white;
+			}
+			#header #box #href:hover a{
+				color:aquamarine;
+			}
+			#nav{
+				width: 100%;
+				height: 50px;
+				background: aliceblue;
+			} 
+			#nav #box{
+				width: 1440px;
+				height: 50px;
+				margin: 0 auto;
+				position: relative;
+			}
+			#nav ul{
+				position: absolute;
+				left: 360px;				
+				}
+			#nav ul li{
+				float: left;
+				width: 80px;
+				height: 50px;
+				text-align: center;
+				line-height: 50px;
+			}
+			#nav ul li:hover{
+				background:white;
+				cursor: pointer;
+			}
+			
+			#nav #box ul li .one{
+				width: 800px;
+				height: 300px;
+				border: 1px solid black;
+				display: none;
+				position: absolute;
+				z-index: 2;
+			}
+			#nav #box ul li:hover .one{
+				display: block;
+				background: white;
+			}
+			#nav #box ul li .one .one1{
+				width: 500px;
+				height: 300px;
+				float: left;
+				text-align: left;
+				position: relative;				
+			}
+			#nav #box ul li .one .one1 li:hover{
+				color: red;
+				cursor: pointer;
+			}
+			#nav #box ul li .one .one1 .a1{
+				position: absolute;
+				left: 10px;
+				top: 20px;
+			}
+			#nav #box ul li .one .one1 .a2{
+				position: absolute;
+				left: 10px;
+				top: 120px;
+			}
+			#nav #box ul li .one .one1 .a3{
+				position: absolute;
+				left: 10px;
+				top: 240px;
+			}
+			#nav #box ul li .one .one2{
+				width: 300px;
+				height: 300px;
+				float: right;
+			}
+			#banner{
+				width:100%;
+				height: 300px;
+				background: white;
+			}
+			#banner #box{
+				width: 1440px;
+				height: 300px;
+				margin: 0 auto;
+				position: relative;
+			}
+			#banner #box .pic{
+				width: 1440px;
+				height: 300px;
+				overflow: hidden;
+			}
+			#banner #box .pic ul{
+				width: 1440px;
+				height: 300px;
+			}
+			#banner #box .pic ul li{
+				width: 1440px;
+				height: 300px;
+			}			
+			#banner #box .nav{
+				position: absolute;
+				left: 680px;
+				top: 240px;
+			}
+			#banner #box .nav .active{
+				background: coral;
+			}
+            #banner #box .nav ul li{
+            	margin-right: 10px;
+            	float: left;
+            	width: 20px;
+            	height: 20px;
+            	background: white;
+            	border: 1px solid white;
+            	border-radius:100% ;
+            }
+            #banner #box #btn{
+            	display: none;
+            }
+            #banner #box #btn .btn1{
+            	width: 50px;
+            	height: 100px;
+            	background: black;
+            	opacity: .5;
+            	position: absolute;
+            	left:300px;
+            	top:100px;
+            	color: white;
+            	font-size:50px ;
+            	text-align: center;
+            	line-height: 100px;
+            }
+             #banner #box #btn .btn2{
+            	width: 50px;
+            	height: 100px;
+            	background: black;
+            	opacity: .5;
+            	position: absolute;
+            	right:300px;
+            	top:100px;
+            	color: white;
+            	font-size:50px ;
+            	text-align: center;
+            	line-height: 100px;
+            }
+            #banner #box:hover{
+            	cursor: pointer;
+            }
+            #banner #box:hover #btn{
+            	display: block;
+            }
